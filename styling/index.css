@@ -1,109 +1,107 @@
-body{
-    background: url(../imgs/background\ 1.png);
-    background-repeat: no-repeat;
-    background-size: 100vw 100vh;
-    font-family: 'Quicksand';
-    overflow: hidden;
+body {
+  background: url(../imgs/background\1.png);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  font-family: "Quicksand";
+  overflow: hidden;
 }
 
-h1{ 
-    position: absolute;
-    width: 91.562vw;
-    height: 13.908vh;
-    left: 4.375vw;
-    top: 1.584vh;
-    margin: 0;
+h1 {
+  position: absolute;
+  width: 91.562vw;
+  height: 13.908vh;
+  left: 4.375vw;
+  top: 1.584vh;
+  margin: 0;
 
-    font-size: 11vh;
-    line-height: 80px;
-    text-decoration-line: underline;
+  font-size: 11vh;
+  line-height: 80px;
+  text-decoration-line: underline;
 
-    color: #242423;
+  color: #242423;
 }
 
-h3{
-    position: absolute;
-    width: 60vw;
-    height: 5.458vh;
-    left: 4.375vw;
-    top: 14.493vh;
-    margin: 0;
+h3 {
+  position: absolute;
+  width: 60vw;
+  height: 5.458vh;
+  left: 4.375vw;
+  top: 14.493vh;
+  margin: 0;
 
-    font-size: 7.5vw;
-    color: #242423;
+  font-size: 7.5vw;
+  color: #242423;
 }
 
-h2{
-    font-size: 9vh;
-    line-height: 3vw;
-    text-align: left;
-    padding-left: 25vw;
+h2 {
+  font-size: 9vh;
+  line-height: 3vw;
+  text-align: left;
+  padding-left: 25vw;
 }
 
-h4{
-    font-size: 2.6vh;
-    line-height: auto;
-    text-transform: lowercase;
+h4 {
+  font-size: 2.6vh;
+  line-height: auto;
+  text-transform: lowercase;
 
-    color: #080705;
-    text-shadow: 0px 4px 20px #242423;
+  color: #080705;
+  text-shadow: 0px 4px 20px #242423;
 }
 
-#logo{
-    width: 40vw;
-    height: 5.634vh;
+#logo {
+  width: 40vw;
+  height: 5.634vh;
 }
 
-#p1{
-    position: absolute;
-    display: flex;
-    align-items: center;
-    left: 5vw;
-    top: 58vh;
+#p1 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  left: 5vw;
+  top: 58vh;
 }
 
-
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
+#button-login {
+  position: absolute;
+  width: 99.375vw;
+  height: 17.43vh;
+  left: -17.812vw;
+  top: 66.901vh;
 
-#button-login{
-    position: absolute;
-    width: 99.375vw;
-    height: 17.43vh;
-    left: -17.812vw;
-    top: 66.901vh;
-
-    background: #242423;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 20px #242423;
-    border-radius: 16px;
-    color: #FFFFFF;
+  background: #242423;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 20px #242423;
+  border-radius: 16px;
+  color: #ffffff;
 }
 
-#button-signUp{
-    z-index: 1;
-    position: absolute;
-    width: 99.375vw;
-    height: 17.43vh;
-    left: -17.812vw;
-    top: 82.57vh;
+#button-signUp {
+  z-index: 1;
+  position: absolute;
+  width: 99.375vw;
+  height: 17.43vh;
+  left: -17.812vw;
+  top: 82.57vh;
 
-    background: #C4C4C4;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 20px #242423;
-    border-radius: 20px;
-    color: #242423;
+  background: #c4c4c4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 20px #242423;
+  border-radius: 20px;
+  color: #242423;
 }
 
-#opache{
-    z-index: -1;
-    position: absolute;
-    width: 88.125vw;
-    height: 101.408vh;
-    left: -5px;
-    top: -4px;
+#opache {
+  z-index: -1;
+  position: absolute;
+  width: 88.125vw;
+  height: 101.408vh;
+  left: -5px;
+  top: -4px;
 
-    background: #C4C4C4;
-    opacity: 0.7;
-    box-shadow: 0px 4px 50px #242423;
+  background: #c4c4c4;
+  opacity: 0.7;
+  box-shadow: 0px 4px 50px #242423;
 }
