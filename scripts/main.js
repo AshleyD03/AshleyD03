@@ -7,8 +7,7 @@ var mainApp = {};
         if (user) {
             // User is signed in.
             uid = user.uid;
-            console.log("good")
-            console.log(user)
+            console.log("Wellcome " + user["email"])
             document.getElementById("email").innerHTML = user["displayName"]
         }else{
             // redirect to login page
