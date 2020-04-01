@@ -1,4 +1,4 @@
-body{ /* Based on W: 320px H: 568px */
+body{
     background: url(../imgs/background\ 1.png);
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
@@ -25,7 +25,7 @@ h3{
     position: absolute;
     width: 60vw;
     height: 5.458vh;
-    left: 5.375vw;
+    left: 4.375vw;
     top: 14.493vh;
     margin: 0;
 
@@ -39,6 +39,29 @@ h2{
     text-align: left;
     padding-left: 25vw;
 }
+
+h4{
+    font-size: 2.6vh;
+    line-height: auto;
+    text-transform: lowercase;
+
+    color: #080705;
+    text-shadow: 0px 4px 20px #242423;
+}
+
+#logo{
+    width: 40vw;
+    height: 5.634vh;
+}
+
+#p1{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 5vw;
+    top: 58vh;
+}
+
 
 a{
     text-decoration: none;
@@ -72,7 +95,7 @@ a{
     color: #242423;
 }
 
-.opache{
+#opache{
     z-index: -1;
     position: absolute;
     width: 88.125vw;

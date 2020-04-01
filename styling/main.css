@@ -1,0 +1,7 @@
+body{
+    background: url(../imgs/background\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    font-family: 'Quicksand';
+    overflow: hidden;
+}
