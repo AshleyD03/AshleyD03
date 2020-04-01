@@ -1,3 +1,4 @@
+// No longer used, kept incase problems occur with login 
 (function(){
     var ui = new firebaseui.auth.AuthUI(firebase.auth());
     var uiConfig = {
@@ -28,4 +29,4 @@
         };
 
         ui.start('#firebaseui-auth-container', uiConfig);
-})()
+})() 

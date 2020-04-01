@@ -13,9 +13,21 @@
 </head>
 <body>
     <h1>Welcome to My Awesome App</h1>
-    <div id="firebaseui-auth-container"></div>
-    <div id="loader">Loading...</div>
-    <script src="fireBase.js"></script>
-    <script src="login.js"></script>
+
+    <!-- Login Form -->
+    <form id="login-form">
+        <div class="input-field">
+          <input type="email" id="login-email" required />
+          <label for="login-email">Email address</label>
+        </div>
+        <div class="input-field">
+          <input type="password" id="login-password" required />
+          <label for="login-password">Your password</label>
+        </div>
+        <button>Login</button>
+    </form>
+
+    <script src="scripts/fireBase.js"></script>
+    <script src="scripts/login.js"></script>
 </body>
 </html>

@@ -1,0 +1,86 @@
+body{ /* Based on W: 320px H: 568px */
+    background: url(../imgs/background\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    font-family: 'Quicksand';
+    overflow: hidden;
+}
+
+h1{ 
+    position: absolute;
+    width: 91.562vw;
+    height: 13.908vh;
+    left: 4.375vw;
+    top: 1.584vh;
+    margin: 0;
+
+    font-size: 11vh;
+    line-height: 80px;
+    text-decoration-line: underline;
+
+    color: #242423;
+}
+
+h3{
+    position: absolute;
+    width: 60vw;
+    height: 5.458vh;
+    left: 5.375vw;
+    top: 14.493vh;
+    margin: 0;
+
+    font-size: 7.5vw;
+    color: #242423;
+}
+
+h2{
+    font-size: 9vh;
+    line-height: 3vw;
+    text-align: left;
+    padding-left: 25vw;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+#button-login{
+    position: absolute;
+    width: 99.375vw;
+    height: 17.43vh;
+    left: -17.812vw;
+    top: 66.901vh;
+
+    background: #242423;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 20px #242423;
+    border-radius: 16px;
+    color: #FFFFFF;
+}
+
+#button-signUp{
+    z-index: 1;
+    position: absolute;
+    width: 99.375vw;
+    height: 17.43vh;
+    left: -17.812vw;
+    top: 82.57vh;
+
+    background: #C4C4C4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 20px #242423;
+    border-radius: 20px;
+    color: #242423;
+}
+
+.opache{
+    z-index: -1;
+    position: absolute;
+    width: 88.125vw;
+    height: 101.408vh;
+    left: -5px;
+    top: -4px;
+
+    background: #C4C4C4;
+    opacity: 0.7;
+    box-shadow: 0px 4px 50px #242423;
+}

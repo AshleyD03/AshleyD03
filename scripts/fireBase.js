@@ -12,4 +12,5 @@ var app_fireBase = {};
   firebase.initializeApp(firebaseConfig);
 
   app_fireBase = firebase;
-})()
+  auth = firebase.auth();
+})()  
