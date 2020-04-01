@@ -9,6 +9,7 @@ var mainApp = {};
             uid = user.uid;
             console.log("good")
             console.log(user)
+            document.getElementById("email").innerHTML = user["displayName"]
         }else{
             // redirect to login page
             uid = null;
@@ -20,5 +21,5 @@ var mainApp = {};
         firebase.auth().signOut();
     }
 
-    mainApp.logOut = logOut;
+    mainApp.logOut = logOut; 
 })()
