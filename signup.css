@@ -1,0 +1,51 @@
+button{
+    position: absolute;
+    width: 99.375vw;
+    height: 17.43vh;
+    left: 0vw;
+    top: 89vh;
+
+    background: #242423;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 20px #242423;
+    border-radius: 16px;
+    color: #FFFFFF;
+    font-size: larger;
+}
+
+body{
+    background: url(../imgs/background1.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    font-family: 'Quicksand';
+    overflow: hidden;
+}
+
+h1{
+    text-align: center;
+    font: larger;
+}
+
+h2{
+    text-align: center;
+    font-size: larger;
+}
+
+h3{
+    font-size: larger;
+}
+
+h4{
+    align-content: center;
+}
+
+form{
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #00FFFFFF;
+    padding: 10px;
+    width: 90%;
+    margin: 10px;
+    outline: none;
+}
+
+
