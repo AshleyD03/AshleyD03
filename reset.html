@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Reset</title>
     <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-analytics.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-auth.js"></script>
@@ -11,26 +11,21 @@
     <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
     <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css"/>
     <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
-    <link rel="stylesheet" href="styling/login.css">
+    <link rel="stylesheet" href="styling/reset.css.css">
 </head>
 <body>
-    <a href="index.html">
-      <img src="imgs/✕.png" alt="X button to leave">
+    <a href="login.html">
+        <img src="imgs/✕.png" alt="X button to return to login page">
     </a>
-    <img src="imgs/logo.png" alt="Canon logo">
-    <!-- Login Form -->
-    <form id="login-form">
-      <div class="input-field">
-        <input type="email" id="login-email" required />
-      </div>
-      <div class="input-field">
-        <input type="password" id="login-password" required />
-      </div>
-      <button id="Booten">Login</button>
-      <a href="reset.html" id="forgot">forgot your pussword?</a>
+
+    <form id="reset-form">
+        <div class="input-field">
+            <input type="email" id="reset-email" placeholder="E-mail" required />
+        </div>
+        <button>Send Reset</button>
     </form>
 
     <script src="scripts/fireBase.js"></script>
-    <script src="scripts/login.js"></script>
+    <script src="scripts/reset.js"></script>
 </body>
-</html> 
+</html>

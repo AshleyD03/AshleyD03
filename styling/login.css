@@ -1,42 +1,42 @@
 body {
-    background: url(../imgs/background1.png);
-    background-repeat: no-repeat;
-    background-size: 100vw 100vh;
-    font-family: "Quicksand";
-    overflow: hidden;
-  }
-  
-  #logo {
-    height: 20vh;
-    width: 100vw;
-  }
-  #login-email {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 10px;
-    width: 90%;
-    margin: 10px;
-  }
-  #login-password {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 10px;
-    width: 90%;
-    margin: 10px;
-  }
-  
-  #Booten {
-    background-color: #000000;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    display: flex;
-    font-size: 16px;
-    top: 670px;
-    position: absolute;
-    width: 95%;
-  }
-  #forgot {
-    margin: 10px;
-  }
+  background: url(../imgs/background1.png);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  font-family: "Quicksand";
+  overflow: hidden;
+}
+
+#logo {
+  height: 20vh;
+  width: 100vw;
+}
+#login-email {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  width: 90%;
+  margin: 10px;
+}
+#login-password {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  width: 90%;
+  margin: 10px;
+}
+
+#Booten {
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: flex;
+  font-size: 16px;
+  top: 670px;
+  position: absolute;
+  width: 95%;
+}
+#forgot {
+  margin: 10px;
+}
