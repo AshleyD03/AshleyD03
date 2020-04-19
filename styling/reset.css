@@ -33,7 +33,7 @@ body {
 
   color: #080705;
 
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-shadow: 2vw 2vw 3vh rgba(0, 0, 0, 0.25);
 }
 
 #p1 {
@@ -54,21 +54,23 @@ body {
 
   color: #080705;
 
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-shadow: 2vw 2vw 3vh rgba(0, 0, 0, 0.25);
 }
 
 #reset-email {
   position: absolute;
-  width: 299px;
-  height: 34px;
-  left: 9px;
-  top: 305px;
+  width: 93.438vw;
+  height: 5.986vh;
+  left: 2.813vw;
+  top: 53.697vh;
 
   color: #080705;
+  font-size: xx-large;
+  line-height: 37px;
 
   background: rgba(196, 196, 196, 0.8);
   opacity: 0.8;
-  border-radius: 5px;
+  border-radius: 0.88vh;
 }
 
 #button-body {
@@ -76,11 +78,12 @@ body {
   width: 100.0vw;
   height: 23.944vh;
   left: 0px;
-  top: 469px;
+  top: 82.57vh;
   background: linear-gradient(0deg, #242423, #242423);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
-    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 20px;
+  border-color: #242423;
+  box-shadow: 2vw 2vw 3vh rgba(0, 0, 0, 0.25),
+    inset 2vw 2vw 3vh rgba(0, 0, 0, 0.25);
+  border-radius: 3.521vh;
 }
 
 #button-text{ 
@@ -89,7 +92,7 @@ body {
   left: 7vw;
 
   color: #ffffff;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-shadow: 2vw 2vw 3vh rgba(0, 0, 0, 0.25);
   font-size: 9vh;
   font-family: "Quicksand";
 }
