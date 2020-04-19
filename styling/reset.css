@@ -5,3 +5,91 @@ body {
   font-family: "Quicksand";
   overflow: hidden;
 }
+
+#background {
+  z-index: -1;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  left: 0px;
+  top: 0px;
+
+  background: #c4c4c4;
+  opacity: 0.7;
+}
+
+#header {
+  position: absolute;
+  width: 86.563vw;
+  height: 10.915vh;
+  left: 6.563vw;
+  top: 13.028vh;
+
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14vw;
+  text-align: center;
+
+  color: #080705;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#p1 {
+  position: absolute;
+  width: 94.063vw;
+  height: 4.577vh;
+  left: 2.813vw;
+  top: 28.345vh;
+
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 3vw;
+  font-size: 3vh;
+  line-height: 4vh;
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #080705;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#reset-email {
+  position: absolute;
+  width: 299px;
+  height: 34px;
+  left: 9px;
+  top: 305px;
+
+  color: #080705;
+
+  background: rgba(196, 196, 196, 0.8);
+  opacity: 0.8;
+  border-radius: 5px;
+}
+
+#button-body {
+  position: absolute;
+  width: 100.0vw;
+  height: 23.944vh;
+  left: 0px;
+  top: 469px;
+  background: linear-gradient(0deg, #242423, #242423);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+#button-text{ 
+  position: absolute;
+  top: 3vh;
+  left: 7vw;
+
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 9vh;
+  font-family: "Quicksand";
+}
