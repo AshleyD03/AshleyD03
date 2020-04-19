@@ -11,6 +11,7 @@ var app_fireBase = {};
   };
   firebase.initializeApp(firebaseConfig);
 
+  storage = firebase.storage();
   app_fireBase = firebase;
   auth = firebase.auth();
-})()  
+})() 
