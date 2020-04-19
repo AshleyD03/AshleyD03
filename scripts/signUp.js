@@ -15,6 +15,6 @@
             })
         }).then(cred => {
             window.location.replace("main.html")
-        });
+        }).catch(error => alert(error.message));
     });
 })();

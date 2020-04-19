@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reset</title>
+    <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-firestore.js"></script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+    <link rel="stylesheet" href="styling/reset.css">
+</head>
+
+<body>
+    <rect id="background"></rect>
+    <a href="login.html">
+        <img src="imgs/✕.png" alt="X button to return to login page">
+    </a>
+
+    <div id="header">
+        Don't Worry
+    </div>
+
+    <div id="p1">
+        Just Tell Us Your Email And We'll Send You A Reset Email So You Can Use A New Password.
+    </div>
+
+    <form id="reset-form">
+        <div class="input-field">
+            <input type="email" id="reset-email" placeholder="E-mail" required />
+        </div>
+        <button id="button-body">
+            <div id="button-text"> Send Reset </div>
+        </button>
+    </form>
+
+    <script src="scripts/fireBase.js"></script>
+    <script src="scripts/reset.js"></script>
+</body>
+
+</html>
